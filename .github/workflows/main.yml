@@ -24,7 +24,7 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: Ares
-          path: build/libs/*.jar
+          path: build/*.jar
 
       - name: Cleanup Gradle Cache
         run: rm -rf ~/.gradle/caches/
